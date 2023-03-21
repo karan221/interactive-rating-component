@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Overpass';
+  src: url('Overpass-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 400 700;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  font-family: Geneva, sans-serif; font-size:15px;
+  background: hsla(216, 12%, 8%, 0.9);
+  color: hsl(0, 0%, 100%);
+}
+
+.main > div {
+  background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  width: 350px;
+  display: flex;
+  margin: 1em auto;
+  flex-direction: column;
+}
+
+.main > div > p {
+  color:hsl(217, 12%, 63%);
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  margin: 1.5em 0;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.rating > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1em;
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+.symbol {
+  display: flex;
+  margin: 1em auto;
+  flex-direction: column;
+}
